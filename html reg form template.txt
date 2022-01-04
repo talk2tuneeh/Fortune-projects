@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body bgcolor="sky blue"><center><h1> KYC FORM</h1></center><Form>
+            <center><p>First Name:
+                <input type = "text" name="name" placeholder="Key in first name"><br></center>
+            </p>
+            <center><p>Middle Name:
+                <input type = "text" name="name" placeholder="Key in middle name"><br></center>
+            </p>
+            <center><p>Last Name:
+                <input type = "text" name="name" placeholder="Key in last name"><br></center>
+            </p>
+            <center><p>Date of Birth:
+                <input type = "date" name="age"></center>
+            </p>
+            <center><p>Phrasekey:
+                <input type ="password" name="password"></center>
+            </p>
+            <center><p>Confirm Phrasekey:
+                <input type="password" name="password"></center>
+            </p>
+            <center>Sex:</b> <input type="radio" name="sex" value="Male"> Male 
+                      <input type="radio" name="sex" value="Female"> Female
+                      <input type="radio" name="sex" value="Rather not say"> Rather not say</center>
+            </Form>
+            <center><p>Upload Passport:
+                <input type="file" name="Upload"></center>
+            </p>
+            <center><button><a href="">Submit</button></a></center>
+</html>
