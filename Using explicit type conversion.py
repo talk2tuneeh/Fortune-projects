@@ -12,16 +12,16 @@ name = input('What is your name? ')
 print(f"Type of name variable is: {str (name)}. ")
 
 # Modify the line below
-age = input('What is your age? ')
+age = int(input('What is your age? '))
 
 print(f"Type of age variable is: {int (age)}. ")
 
 # Modify the line below
-height = input('What is your height in meters? ')
+height = float(input('What is your height in meters? '))
 
 print(f"Type of height variable is: {float (height)}. ")
 
 # Modify the line below
-loyalty = input('Are you part of our loyalty program? ')
+loyalty = bool(input('Are you part of our loyalty program? '))
 
 print(f"Type of loyalty variable is: {bool (loyalty)}. ")
